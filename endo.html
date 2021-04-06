@@ -2,7 +2,7 @@
 <!-- saved from url=(0062)https://webpages.uncc.edu/~szhang16/mining_medical_images.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Deep Learning for Pulmonary CT Analysis</title>
+    <title>Computer-Aided Endoluminal Intervention</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,13 +29,13 @@
 <div class="row">
 <div class="span12">
 <div class="page-header">
-<h1>Deep Learning for Pulmonary CT Analysis</h1>
+<h1>Computer-Aided Endoluminal Intervention</h1>
 
 </div>
 <img src="lung_files/lung_main.png">
 <h2><br>Abstract</h2>
 <p>
-Recent few months have witnessed one of the most devastating epidemic outbreaks throughout the world—COVID-19. Like many other lung diseases (e.g., chronic obstructive pulmonary diseases), this infectious pneumonia can also be detected by chest computed tomography (CT). As a routine screening tool, chest CT has been widely adopted to reveal radiographic patterns of diseases. It is often of clinical interest to quantitatively analyze CT scans by first performing segmentation on volume-of-interest (VOI) and then extracting related features. Our project, mainly supported by <a href="http://www.pami.sjtu.edu.cn/StudentDetail/18">Yulei Qin</a>, focuses on automated analysis for lobule, airway, vessel and nodules. 
+
 </p>
 </div> <!-- span12 -->
 </div> <!-- row -->
@@ -80,31 +80,26 @@ year = {2015}
 <div class="span5">
 <h2>Datasets</h2>
 <br>
-<a href="https://pan.baidu.com/s/1HsVcyoRSk9ajWoqYGgntdA">Binary Airway Segmentation Dataset</a> (Pwd: 9vy4)
+<a href="mailto:yungu@ieee.org">Multimodal Microscopy Dataset</a> (Gu et.al, IEEE TMI 2018)
 <br>
-This dataset contains the manual airway annotation of 60 public CT scans: 40 CT scans from LIDC-IDRI and 20 CT scans from the training set of the EXACT 09 Challenge. Please download the corresponding raw CT data from these two datasets by yourself.
+This dataset contains the endomicroscopy and H&E histology data from 42 patients. We also recommend to use <a href="https://ieeexplore.ieee.org/document/7312934/">BreakHis dataset</a> and <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177544">PLOSONE dataset</a> to improve the crossmodal generalization. 
+
 <br>
 <br>
-<a href="">Solid State Nodule Classification Dataset</a> (Zhang et.al, MICCAI 2020)
+<!-- <a href="">Solid State Nodule Classification Dataset</a> (Zhang et.al, MICCAI 2020)
 <br>
-We build a small yet definite CT dataset (171 patients) called SCH-LND focusing on solid lung nodules (90 benign/90 malignant cases). Under the supervision of SCH-LND dataset, many hidden drawbacks of unsure data (484 solid nodules selected from LIDC-IDRI dataset) served for malignancy prediction are objectively revealed. 
+We build a small yet definite CT dataset (171 patients) called SCH-LND focusing on solid lung nodules (90 benign/90 malignant cases). Under the supervision of SCH-LND dataset, many hidden drawbacks of unsure data (484 solid nodules selected from LIDC-IDRI dataset) served for malignancy prediction are objectively revealed.  -->
 </div>
 
 <div class="span5">
 <h2>Relevant publications</h2>
 <br>
-Hanxiao Zhang, Yun Gu, Yulei Qin, Feng Yao, Guang-Zhong Yang, <a href="">Learning with Sure Data for Nodule-Level Lung Cancer Prediction</a>, MICCAI 2020
+Yun Gu, Khushi Vyas, Jie Yang, Guang-Zhong Yang, <a href="">Deep Graph-based Multimodal Feature Embedding for Endomicroscopy Image Retrieval</a>, IEEE Transactions on Neural Networks and Learning Systems, 2020.
 <br><br>
-Yulei Qin, Hao Zheng, Yun Gu*, Xiaolin Huang, Jie Yang, Lihui Wang, Yuemin Zhu, <a href="">Learning Bronchiole-Sensitive Airway Segmentation CNNs by Feature Recalibration and Attention Distillation</a>, MICCAI, 2020.
+Yun Gu, Khushi Vyas, Jie Yang and Guang-Zhong Yang, <a href="">Transfer Recurrent Feature Learning for Endomicroscopy Image Classification</a>, IEEE Transactions on Medical Imaging, 2018.
 
 <br><br>
-Yulei Qin, Yun Gu*, Hao Zheng, Mingjian Chen, Jie Yang, Yuemin Zhu, <a href="">AirwayNet-SE: A Simple-yet-Effective Approach to Improve Airway Segmentation Using Context Scale Fusion</a>, ISBI, 2020.
 
-<br><br>
-Yulei Qin, Mingjian Chen, Hao Zheng, Yun Gu, Mali Shen, Jie Yang, Xiaolin Huang, Yue-Min Zhu, Guang-Zhong Yang, <a href="">AirwayNet: A Voxel-Connectivity Aware Approach for Accurate Airway Segmentation Using Convolutional Neural Networks</a>, MICCAI 2019.
-
-<br><br>
-Mingjian Chen, Yun Gu, Yulei Qin, Hao Zheng, Jie Yang, <a href="lung_files/lobeseg_final.pdf">LOBENET: A GLOBAL POSITION RESERVATION AND FISSURE-AWARE CONVOLUTIONAL NEURAL NETWORK FOR PULMONARY LOBE SEGMENTATION</a>, Technical Report, 2020 (<a href="https://github.com/geronsushi/LobeSegmentation">code</a>)
 </div>
 </div>
 
