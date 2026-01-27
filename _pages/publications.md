@@ -1,14 +1,17 @@
 ---
 title: #"Publications"
 permalink: /publications/
-layout: single
+layout: splash
 author_profile: true   # or false
 ---
+
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=0pX32mkAAAAJ&hl=en)
+
 ## Journal Papers
 
-- X. You, M. Ding, M. Zhang, H. Zhang, J. Wu, Y. Yu, J. Yang, **Y. Gu**, [Towards Boundary Confusion for Volumetric Medical Image Segmentation](https://doi.org/10.1016/j.media.2026.103961), *Medical Image Analysis (MedIA)*, 2026
-- J. Wu, **Y. Gu**, G.-Z. Yang, [Trimming-then-Augmentation: Towards Robust Depth and Odometry Estimation for Endoscopic Images](https://www.sciencedirect.com/search?qs=Trimming-then-Augmentation%3A%20Towards%20Robust%20Depth%20and%20Odometry%20Estimation%20for%20Endoscopic%20Images), *Medical Image Analysis (MedIA)*, 2026 — [code](https://github.com/EndoluminalSurgicalVision-IMR/Trim-then-Aug)
-- C. Zhang, K. Wang, **Y. Gu**, [Beyond Low-Rank Tuning: Model Prior-Guided Rank Allocation for Effective Transfer in Low-Data and Large-Gap Regimes](https://openaccess.thecvf.com/menu), *IEEE International Conference on Computer Vision (ICCV)*, 2025 — [code](https://github.com/EndoluminalSurgicalVision-IMR/SR-LoRA)
+- X. You, M. Ding, M. Zhang, H. Zhang, J. Wu, Y. Yu, J. Yang, **Y. Gu**, [Towards Boundary Confusion for Volumetric Medical Image Segmentation](https://doi.org/10.1016/j.media.2026.103961), *Medical Image Analysis (MedIA)*, 2026— [[code]](https://github.com/EndoluminalSurgicalVision-IMR/PnPNet)
+- J. Wu, **Y. Gu**, G.-Z. Yang, [Trimming-then-Augmentation: Towards Robust Depth and Odometry Estimation for Endoscopic Images](https://doi.org/10.1016/j.media.2025.103736), *Medical Image Analysis (MedIA)*, 2026 — [code](https://github.com/EndoluminalSurgicalVision-IMR/Trim-then-Aug)
+- C. Zhang, K. Wang, **Y. Gu**, [Beyond Low-Rank Tuning: Model Prior-Guided Rank Allocation for Effective Transfer in Low-Data and Large-Gap Regimes](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Beyond_Low-Rank_Tuning_Model_Prior-Guided_Rank_Allocation_for_Effective_Transfer_ICCV_2025_paper.pdf), *IEEE International Conference on Computer Vision (ICCV)*, 2025 — [code](https://github.com/EndoluminalSurgicalVision-IMR/SR-LoRA)
 - Z. Huang, Z. Deng, J. Ye, H. Wang, Y. Su, T. Li, H. Sun, J. Cheng, J. Chen, J. He, **Y. Gu**, S. Zhang, L. Gu, Y. Qiao, [A-Eval: A benchmark for cross-dataset and cross-modality evaluation of abdominal multi-organ segmentation](https://www.sciencedirect.com/search?qs=A-Eval%3A%20A%20benchmark%20for%20cross-dataset%20and%20cross-modality%20evaluation%20of%20abdominal%20multi-organ%20segmentation), *Medical Image Analysis (MedIA)*, 2025
 - C. Zhang, H. Zheng, X. You, Y. Zheng, **Y. Gu**, [PASS: Test-Time Prompting to Adapt Styles and Semantic Shapes in Medical Image Segmentation](https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=PASS%3A%20Test-Time%20Prompting%20to%20Adapt%20Styles%20and%20Semantic%20Shapes%20in%20Medical%20Image%20Segmentation), *IEEE Transactions on Medical Imaging (TMI)*, 2025 — [code](https://github.com/EndoluminalSurgicalVision-IMR/PASS)
 - X. You, J. He, J. Yang, **Y. Gu**, [Learning with Explicit Shape Priors for Medical Image Segmentation](https://arxiv.org/abs/2303.17967), *IEEE Transactions on Medical Imaging (TMI)*, 2025 — [code](https://github.com/AlexYouXin/Explicit-Shape-Priors)
